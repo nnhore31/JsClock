@@ -1,0 +1,32 @@
+.cont{
+    position: relative;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    background-image: url("clock.png");
+    background-size: 700px;
+    background-repeat: no-repeat;
+}
+#h,#s,#m{
+    background-color: black;
+    transform-origin: bottom;
+    position: absolute;
+}
+#h{
+   top: 26.7vh;
+   left:343px;
+   width: 12px;
+   height: 20vh;
+}
+#m{
+    top: 19.1vh;
+    left: 344.8px;
+    width: 9px;
+    height: 27vh;   
+ }
+ #s{
+    top: 11vh;
+    left:346px;
+    width: 6px;
+    height: 35vh;
+ }
